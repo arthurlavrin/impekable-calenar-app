@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/impekable-calenar-app/precache-manifest.5ba30b200769bc81814e988700c15d70.js"
+  "/impekable-calenar-app/precache-manifest.a65e5476e81b12fccb98a9a48f8216c9.js"
 );
 
 self.addEventListener('message', (event) => {
