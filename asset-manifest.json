@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/impekable-calenar-app/static/css/main.710735e3.chunk.css",
-    "main.js": "/impekable-calenar-app/static/js/main.bb6b0b27.chunk.js",
-    "main.js.map": "/impekable-calenar-app/static/js/main.bb6b0b27.chunk.js.map",
+    "main.js": "/impekable-calenar-app/static/js/main.920e19cd.chunk.js",
+    "main.js.map": "/impekable-calenar-app/static/js/main.920e19cd.chunk.js.map",
     "runtime-main.js": "/impekable-calenar-app/static/js/runtime-main.c3275394.js",
     "runtime-main.js.map": "/impekable-calenar-app/static/js/runtime-main.c3275394.js.map",
     "static/css/2.aa49d494.chunk.css": "/impekable-calenar-app/static/css/2.aa49d494.chunk.css",
-    "static/js/2.3490aacf.chunk.js": "/impekable-calenar-app/static/js/2.3490aacf.chunk.js",
-    "static/js/2.3490aacf.chunk.js.map": "/impekable-calenar-app/static/js/2.3490aacf.chunk.js.map",
+    "static/js/2.21773fa1.chunk.js": "/impekable-calenar-app/static/js/2.21773fa1.chunk.js",
+    "static/js/2.21773fa1.chunk.js.map": "/impekable-calenar-app/static/js/2.21773fa1.chunk.js.map",
     "index.html": "/impekable-calenar-app/index.html",
-    "precache-manifest.a65e5476e81b12fccb98a9a48f8216c9.js": "/impekable-calenar-app/precache-manifest.a65e5476e81b12fccb98a9a48f8216c9.js",
+    "precache-manifest.d0fca9e2eab86fc70c22ac6212213b02.js": "/impekable-calenar-app/precache-manifest.d0fca9e2eab86fc70c22ac6212213b02.js",
     "service-worker.js": "/impekable-calenar-app/service-worker.js",
     "static/css/2.aa49d494.chunk.css.map": "/impekable-calenar-app/static/css/2.aa49d494.chunk.css.map",
     "static/css/main.710735e3.chunk.css.map": "/impekable-calenar-app/static/css/main.710735e3.chunk.css.map"
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.c3275394.js",
     "static/css/2.aa49d494.chunk.css",
-    "static/js/2.3490aacf.chunk.js",
+    "static/js/2.21773fa1.chunk.js",
     "static/css/main.710735e3.chunk.css",
-    "static/js/main.bb6b0b27.chunk.js"
+    "static/js/main.920e19cd.chunk.js"
   ]
 }
