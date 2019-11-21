@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { connect } from "react-redux"
+import Modal from 'react-modal'
+import styled from 'styled-components';
+import Sidebar from './components/Sidebar/Sidebar';
+import Header from './components/Header/Header';
+import Calendar from './components/Calendar/Calendar';
+import EventPopup from './components/EventPopup/EventPopup';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+Modal.setAppElement('#root');
 
-export default App;
+const Wrapper = styled.div`
+    height: 100%;
+`;
+
+const MainWrapper = styled.main`
+    min-height: 100%;
+    margin-left: 260px;
+`;
+
+const App = ({popup}) => (
+  <Wrapper>
+    <Sidebar />
+    <MainWrapper>
+      <Header />
+      <Calendar />
+    </MainWrapper>
+    <Modal isOpen={popup.status}>
+      <EventPopup />
+    </Modal>
+  </Wrapper>
+);
+
+const mapStateToProps = state => ({
+    events: state.events,
+    popup: state.popup
+});
+
+export default connect(mapStateToProps)(App)
